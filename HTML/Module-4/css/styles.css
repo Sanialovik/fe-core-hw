@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* .text {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.text::before {
+  display: inline-block;
+  width: 5px;
+  height: 20px;
+  content: "";
+  background-color: red;
+  margin-right: 10px;
+}
+
+.text::after {
+  
+} */
+
+.figure {
+position: relative;
+width: 400px;
+}
+
+.figure img {
+  display: block;
+  width: 100%;
+}
+
+.figure::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.figure:hover::before {
+  background-color: rgba(0, 0, 0, 0);
+}

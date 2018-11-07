@@ -1,0 +1,26 @@
+.page-header {
+  margin-bottom: 102px;
+}
+
+.menu {
+  margin-left: 312px;
+  list-style: none;
+  font-size: 14px;
+
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 120px;
+
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.menu-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333;
+  }

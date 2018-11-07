@@ -1,0 +1,35 @@
+.content {
+  margin-left: 150px;
+  filter: grayscale(100%);
+}
+
+.article {
+  display: inline-block;
+  width: 420px;
+  margin-right: 58px;
+  margin-bottom: 128px;
+}
+
+.article:nth-child(2n) {
+  margin-right: 0;
+}
+
+.article:nth-last-child(-n+2) {
+  margin-bottom: 0;
+}
+
+.article-img {
+  width: 420px;
+  height: 280px;
+  margin-bottom: 26px;
+}
+
+.article-title {
+  margin-top: 23px;
+  margin-bottom: 34px;
+  font-size: 30px;
+}
+
+.figcaption {
+  font-size: 14px;
+  }
