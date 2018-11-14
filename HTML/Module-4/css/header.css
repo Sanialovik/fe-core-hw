@@ -1,0 +1,46 @@
+.header {
+  margin-bottom: 105px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title {
+  float: left;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-right: 562px;
+  font-weight: 20;
+  color: #515151;
+}
+
+.menu {
+  list-style: none;
+  float: left;
+}
+
+.menu-item {
+  display: inline-block;
+  margin-right: 31px;
+    }
+
+.menu-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.colortext {
+  color: #1abc9c;
+}

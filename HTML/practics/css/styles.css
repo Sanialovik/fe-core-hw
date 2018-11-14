@@ -3,143 +3,64 @@
   margin: 0px;
   padding: 0px;
 }
-
-body {
-  background-image: url(http://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .wrapper {
-  width: 600px;
-  margin: auto;
+width: 900px;
 }
 
-.display {
-  display: inline-block;
-  height: 100px;
-  width: 200px;
-  background-color: orange;
-  margin-bottom: 20px;
+.gallery {
+box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
+border-radius: 4px;
+padding: 8px;
+margin: 10px;
 }
 
-h1 {
-  box-sizing: border-box;
-  /* padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 20;
-  padding-left: 30px; */
-  /* margin: 50px; */
-  /* padding: 20px 10px 20px 30px; */
-  padding: 20px 50px;
-  margin: 0 30px 50px;
-  /* margin-top: 20px;
-  margin-right: 10px;
-  margin-bottom: 20px;
-  margin-left: 30px; */
-  border: 5px solid brown;
-  outline: 5px solid blue;
+.gallery-title {
+
 }
 
-.box {
-  height: 200px;
-  width: 200px;
-  padding-top: 50px;
-  background-color: #333;
-}
+.gallery-body {
 
-.inner-box {
-  height: 50px;
-  width: 50px;
-  background-color: yellow;
 }
-
-.second-child {
-  margin-top: 20px;
-}
-
-.article {
-  background-color: #ccc
-}
-
-.blue {
-  color: blue;
-}
-
-.orange {
-  color: orange;
-}
-
-.red {
+.colortext {
   color: red;
 }
-
-.big-text {
-  font-size: 30px;
+.gallery-img {
+display: block;
+width: 100%;
+height: auto;
 }
 
-.list {
-  background-color: #ccc
+.gallery-item {
+  position: relative;
+  float: left;
+  width: 33%;
+  margin-right: 0.5%;
+  text-align: center;
+  margin-bottom: 8px;
+  }
+
+.gallery-item:nth-child(3n) {
+  margin-right: 0;
 }
 
-.list-item {
-  background-color: brown;
+.gallery-item:nth-last-child(-n+3) {
+  margin-bottom: 0;
 }
 
-.list-link {
+.gallery-caption {
+  text-transform: uppercase;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
   color: #fefefe;
-}
-
-.list-link:hover {
-  background-color: aqua;
-}
-
-.red,
-.blue {
-  background-color: orange;
-}
-
-.parent-outer {
-  outline: 1px solid #333;
-  height: 400px;
-  background-color: #333;
-  padding: 20px 0px;
-}
-
-.inner {
-  outline: 1px solid #333;
-  height: 100px;
+  font-size: 24px;
   background-color: red;
-  padding: 20px 0;
-  margin-bottom: 20px;
+    background: linear-gradient(to right, blue 80%, green 20%);
 }
 
-.inner:first-child {
-  background-color: black;
-}
-
-.inner:last-child {
-  margin-bottom: 0;
-}
-
-.blue-box {
-  outline: 1px solid #333;
-  height: 30px;
-  background-color: aqua;
-  margin-top: 10px;
-}
-
-.blue-bos:first-child {
-  margin-top: 0;
-}
-
-.blue-box:last-child {
-  margin-bottom: 0;
-}
-
-.marging-example {
-  width: 300px;
-  height: 100px;
-  background-color: #333;
-  margin: 0 auto;
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: '';
 }
