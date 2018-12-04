@@ -1,66 +1,272 @@
 * {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  /* height: 2000px; */
 }
+
 .wrapper {
-width: 900px;
-}
-
-.gallery {
-box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1);
-border-radius: 4px;
-padding: 8px;
-margin: 10px;
-}
-
-.gallery-title {
+  width: 1110px;
+  margin: auto;
 
 }
 
-.gallery-body {
+.page-header {
+
+  border-radius: 5px;
+  /* box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4); */
+  min-height: 300px;
+  /* margin-top: 10px; */
+  padding-top: 10px;
+  background: linear-gradient(to right, red, green);
+  background: url(../logo/nature.jpg) no-repeat scroll top;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 30px;
+}
+
+.logo {
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  vertical-align: middle;
+  background-image: url(../logo/barselona.png);
+  background-size: cover;
+  margin-right: 500px;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+  transition: all 5s ease-out;
+}
+
+.menu {
+  display: inline-block;
+  list-style: none;
+  font-size: 0;
 
 }
-.colortext {
-  color: red;
-}
-.gallery-img {
-display: block;
-width: 100%;
-height: auto;
+
+.menu-item {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 16px;
 }
 
-.gallery-item {
-  position: relative;
-  float: left;
-  width: 33%;
-  margin-right: 0.5%;
-  text-align: center;
-  margin-bottom: 8px;
-  }
-
-.gallery-item:nth-child(3n) {
+.menu-item:last-child {
   margin-right: 0;
 }
 
-.gallery-item:nth-last-child(-n+3) {
-  margin-bottom: 0;
+.menu-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: yellow;
 }
 
-.gallery-caption {
-  text-transform: uppercase;
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  transform: translate(-50%, -50%);
-  color: #fefefe;
-  font-size: 24px;
-  background-color: red;
-    background: linear-gradient(to right, blue 80%, green 20%);
+.menu-link:hover {
+  border: 2px solid #fefefe;
+  transition: all 0.5s ease-out;
+  padding: 10px;
 }
 
 .clearfix::after {
   display: block;
   clear: both;
   content: '';
+}
+
+.line-second {
+  outline: 4px solid #1abc9c;
+  width: 164px;
+  margin-left: 467px;
+  margin-bottom: 78px;
+}
+
+.section {
+  background-color: #3498DB;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+
+}
+
+.section-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.section-body {}
+
+.body-article {
+  background-color: green;
+  color: white;
+}
+
+.article {
+  float: left;
+  width: 348px;
+  margin-right: 33px;
+  font-size: 0;
+
+  
+}
+
+.article:last-child {
+  margin-right: 0;
+}
+
+.article-img {
+  width: 348px;
+  height: 260px;
+  margin-bottom: 12px;
+}
+
+.article-title {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 26px;
+}
+
+.line-third {
+  outline: 1px solid #1abc9c;
+  width: 135px;
+  margin-bottom: 28px;
+}
+
+.article-text {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 17px;
+  font-size: 14px;
+
+}
+
+.button {
+  color: white;
+  background-color: #1abc9c;
+  padding: 18px 41px;
+  font-size: 16px;
+  transition: all 0.5s ease-out;
+}
+
+.button:hover {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #00008B;
+  text-shadow: 0 0 5px white;
+  transition: all 0.5s ease-out;
+}
+
+.body-figure {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 102px;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.figure {
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 27px;
+  width: 33%;
+}
+
+.figure:hover .figure-socials {
+  display: block;
+}
+
+.figure-socials {
+  position: absolute;
+  display: none;
+  text-align: center;
+  background-color: yellow;
+  width: 230px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+}
+
+.icon {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+}
+
+.icon-facebook {
+  background-image: url(../icon/icon-facebook.png);
+  background-size: cover;
+}
+
+.icon-linkedin {
+  background-image: url(../icon/icon-linkedin.png);
+  background-size: cover;
+}
+
+.icon-twitter {
+  background-image: url(../icon/icon-twitter.png);
+  background-size: cover;
+}
+
+.figure:nth-child(n+3) {
+  margin-right: 0;
+}
+
+.figure:nth-last-child(-n+3) {
+  margin-bottom: 0;
+}
+
+
+.gallery-img {
+  float: left;
+  width: 100%;
+  height: 280px;
+}
+
+
+.text {
+  width: 255px;
+  font-size: 0;
+}
+
+
+.worlds {
+  float: left;
+  width: 201px;
+  background-color: #323232;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  padding: 12px 12px 12px;
+  text-transform: uppercase;
+}
+
+
+.price {
+  float: left;
+  width: 54px;
+  background-color: #8c8c8c;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 12px 10px 12px 10px;
+}
+
+.gallery-button {
+  display: inline-block;
+  color: #fefefe;
+  border: 1px solid #fefefe;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 20px;
 }

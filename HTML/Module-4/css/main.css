@@ -1,18 +1,27 @@
 .title-center {
+  position: relative;
   font-size: 48px;
   text-transform: uppercase;
   color: #515151;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-bottom: 28px;
-}
-
-.line-first {
-  outline: 4px solid #1abc9c;
-  width: 160px;
-  margin-left: 475px;
   margin-bottom: 90px;
 }
+
+.title-center::after {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin-top: 32px;
+    
+}
+
 
 .body-figure {
   margin-bottom: 102px;
@@ -23,6 +32,14 @@
   margin-right: 30px;
   margin-bottom: 27px;
   width: 255px;
+}
+
+.figure:hover .worlds {
+  background-color: #1abc9c;
+}
+
+.figure:hover .price {
+  background-color: #7fd9c7;
 }
 
 .figure:nth-child(4n) {
@@ -52,10 +69,13 @@
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 18px;
-  padding: 12px 60px 12px 12px;
+  padding: 12px 12px 12px;
   text-transform: uppercase;
 }
 
+.worlds:hover {
+  background-color: #1abc9c;
+}
 
 .price {
   float: left;
@@ -68,6 +88,9 @@
   padding: 12px 10px 12px 10px;
 }
 
+.price:hover {
+  background-color: #7fd9c7;
+}
 
 .clearfix::after {
   display: block;
@@ -75,11 +98,8 @@
   content: '';
 }
 
-.line-second {
-  outline: 4px solid #1abc9c;
-  width: 164px;
-  margin-left: 467px;
-  margin-bottom: 78px;
+.article-body {
+  margin-bottom: 80px;
 }
 
 .article {
@@ -107,11 +127,16 @@
   line-height: 26px;
 }
 
-.line-third {
-  outline: 1px solid #1abc9c;
-  width: 135px;
-  margin-bottom: 28px;
+.article-title::after {
+  content: '';
+  display: block;
+  margin-top: 14px;
+  height: 3px;
+  width: 136px;
+  background-color: #1abc9c;
+
 }
+
 
 .article-text {
   color: #525252;
@@ -126,4 +151,5 @@
   background-color: #1abc9c;
   padding: 18px 41px;
   font-size: 16px;
+  border: none;
 }

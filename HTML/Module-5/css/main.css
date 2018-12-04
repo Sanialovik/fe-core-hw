@@ -1,0 +1,254 @@
+.fon {
+  
+  position: relative;
+  width: 100%;
+  height: 594px;
+  background-image: url(../img/parizh.png);
+  background-size: cover;
+  margin-bottom: 98px;
+}
+
+.title-center {
+  display: inline-block;
+  position: absolute; 
+  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.title-center::before {
+  display: inline-block;
+  content: '<';
+  font-weight: 900;
+  color: #fff;
+  font-size: 35px;
+  background-color: #54a18f;
+  text-align: center;
+  padding: 31px 40px;
+}
+
+.title-center:hover::before {
+  background-color: #1abc9c;
+}
+
+.title-center:hover::after {
+  background-color: #1abc9c;
+}
+
+.title-center::after {
+  display: inline-block;
+  content: '>';
+  font-weight: 900;
+  color: #fff;
+  font-size: 35px;
+  background-color: #54a18f;
+  text-align: center;
+  padding: 31px 40px;
+}
+
+
+
+.main-title {
+
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+
+.tours {
+
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 20;
+}
+
+.new-collection {
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #515151;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 80px;
+}
+
+.new-collection::after {
+  content: '';
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: #1abc9c;
+  margin-top: 30px;
+  text-align: center;
+  
+}
+
+.body-figure {
+  margin-bottom: 100px;
+  margin-left: 245px;
+  font-size: 0;
+}
+
+.figure {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 27px;
+  width: 255px;
+}
+
+.figure:hover .figure-socials {
+  display: block;
+}
+
+.figure-socials {
+  position: absolute;
+  display: none;
+  background-color: #737373;
+  opacity: 0.8;
+  height: 260px;
+  width: 234px;
+  top: 15%;
+  left: 18%;
+  transform: translate(-15%, -15%);
+  text-align: center;
+}
+
+
+.icon {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  border: 1px solid #fff;
+  margin-right: 8px;
+  margin-bottom: 7px;
+  text-align: center;
+  margin-top: 78px;
+}
+
+.icon:last-child {
+  margin-top: 0;
+}
+
+.icon-heart {
+  background-image: url(../icons/heart-icon.png);
+  background-size: cover;
+}
+
+.icon-heart:hover {
+  background-color: #1abc9c;
+}
+
+.icon-shuffle {
+
+  background-image: url(../icons/shuffle-icon.png);
+  background-size: cover;
+}
+
+.icon-shuffle:hover {
+  background-color: #1abc9c;
+}
+
+
+.icon-time {
+  background-image: url(../icons/time-icon.png);
+  background-size: cover;
+  margin-right: 0;
+}
+
+.icon-time:hover {
+  background-color: #1abc9c;
+}
+
+
+.icon-cart {
+  background-image: url(../icons/cart-icon.png);
+  background-size: cover;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #323232;
+  color: #fff;
+  width: 160px;
+  height: 48px;
+  /* text-align: center; */
+  vertical-align: center;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.icon-cart:hover {
+  background-color: #1abc9c;
+}
+
+
+.figure:hover .worlds {
+  background-color: #1abc9c;
+}
+
+.figure:hover .price {
+  background-color: #7fd9c7;
+}
+
+.figure:nth-child(4n) {
+  margin-right: 0;
+}
+
+.figure:nth-last-child(-n+4) {
+  margin-bottom: 0;
+}
+
+.gallery-img {
+
+  display: block;
+  width: 255px;
+  height: 280px;
+}
+
+.text {
+  width: 255px;
+  font-size: 0;
+}
+
+
+.worlds {
+  float: left;
+  width: 201px;
+  background-color: #323232;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  padding: 12px 12px 12px;
+  text-transform: uppercase;
+}
+
+.worlds:hover {
+  background-color: #1abc9c;
+}
+
+.price {
+  float: left;
+  width: 54px;
+  background-color: #8c8c8c;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 12px 10px 12px 10px;
+}
+
+.price:hover {
+  background-color: #7fd9c7;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: '';
+}
