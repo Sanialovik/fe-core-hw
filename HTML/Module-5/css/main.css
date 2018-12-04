@@ -1,5 +1,5 @@
 .fon {
-  
+
   position: relative;
   width: 100%;
   height: 594px;
@@ -9,9 +9,9 @@
 }
 
 .title-center {
-  display: inline-block;
-  position: absolute; 
   
+  position: absolute;
+
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -19,6 +19,7 @@
 }
 
 .title-center::before {
+
   display: inline-block;
   content: '<';
   font-weight: 900;
@@ -38,6 +39,7 @@
 }
 
 .title-center::after {
+
   display: inline-block;
   content: '>';
   font-weight: 900;
@@ -51,7 +53,7 @@
 
 
 .main-title {
-
+  display: inline-block;
   text-transform: uppercase;
   color: #fff;
   text-align: center;
@@ -63,7 +65,8 @@
 
 
 .tours {
-
+  display: inline-block;
+  
   text-transform: uppercase;
   color: #fff;
   font-size: 22px;
@@ -71,6 +74,7 @@
 }
 
 .new-collection {
+  position: relative;
   font-size: 48px;
   text-transform: uppercase;
   color: #515151;
@@ -80,6 +84,9 @@
 }
 
 .new-collection::after {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
   content: '';
   display: block;
   width: 164px;
@@ -87,7 +94,7 @@
   background-color: #1abc9c;
   margin-top: 30px;
   text-align: center;
-  
+
 }
 
 .body-figure {
@@ -167,7 +174,6 @@
   background-color: #1abc9c;
 }
 
-
 .icon-cart {
   background-image: url(../icons/cart-icon.png);
   background-size: cover;
@@ -177,8 +183,7 @@
   color: #fff;
   width: 160px;
   height: 48px;
-  /* text-align: center; */
-  vertical-align: center;
+
   margin-right: 0;
   margin-bottom: 0;
 }
