@@ -1,9 +1,13 @@
-.footer {
+.wrapper-footer {
   background-color: #323232;
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
+.footer {
   font-size: 16px;
   color: #fff;
   text-align: center;
-  padding-top: 33px;
-  padding-bottom: 33px;
-
+  font-family: "opensans", sans-serif;
+  font-weight: 100;
 }

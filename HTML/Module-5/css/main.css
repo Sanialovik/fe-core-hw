@@ -1,59 +1,65 @@
-.fon {
-
+.wrapper-slider {
   position: relative;
-  width: 100%;
-  height: 594px;
   background-image: url(../img/parizh.png);
   background-size: cover;
-  margin-bottom: 98px;
+  padding-top: 214px;
+  padding-bottom: 278px;
+
 }
 
-.title-center {
-  
-  position: absolute;
+.container {
+  margin: auto;
+  width: 1110px;
+}
 
+.section-slider {
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
+
 }
 
-.title-center::before {
-
-  display: inline-block;
+.main-title::before {
+  position: absolute;
+  left: -38%;
+  top: 22%;
+  display: block;
   content: '<';
   font-weight: 900;
   color: #fff;
   font-size: 35px;
   background-color: #54a18f;
-  text-align: center;
-  padding: 31px 40px;
+  padding: 30px 40px 35px;
 }
 
-.title-center:hover::before {
+.main-title:hover::before {
   background-color: #1abc9c;
 }
 
-.title-center:hover::after {
-  background-color: #1abc9c;
-}
 
-.title-center::after {
-
-  display: inline-block;
+.main-title::after {
+  position: absolute;
+  right: -38%;
+  top: 22%;
+  display: block;
   content: '>';
   font-weight: 900;
   color: #fff;
   font-size: 35px;
   background-color: #54a18f;
-  text-align: center;
-  padding: 31px 40px;
+  padding: 30px 40px 35px;
+
 }
 
-
+.main-title:hover::after {
+  background-color: #1abc9c;
+}
 
 .main-title {
-  display: inline-block;
+  position: relative;
+  display: block;
   text-transform: uppercase;
   color: #fff;
   text-align: center;
@@ -65,12 +71,18 @@
 
 
 .tours {
-  display: inline-block;
-  
+  display: block;
+
   text-transform: uppercase;
   color: #fff;
   font-size: 22px;
   font-weight: 20;
+}
+
+.wrapper-collection {
+  background-color: #e9f0fd;
+  padding-top: 98px;
+  padding-bottom: 98px;
 }
 
 .new-collection {
@@ -83,23 +95,18 @@
   margin-bottom: 80px;
 }
 
+
+
 .new-collection::after {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
   content: '';
   display: block;
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
-  margin-top: 30px;
-  text-align: center;
-
+  margin: 30px auto 0;
 }
 
 .body-figure {
-  margin-bottom: 100px;
-  margin-left: 245px;
   font-size: 0;
 }
 
@@ -107,7 +114,6 @@
   position: relative;
   display: inline-block;
   margin-right: 30px;
-  margin-bottom: 27px;
   width: 255px;
 }
 
@@ -128,16 +134,23 @@
   text-align: center;
 }
 
+.figure-socials-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 .icon {
   display: inline-block;
+
   height: 48px;
   width: 48px;
   border: 1px solid #fff;
   margin-right: 8px;
   margin-bottom: 7px;
-  text-align: center;
-  margin-top: 78px;
+
 }
 
 .icon:last-child {
@@ -147,6 +160,7 @@
 .icon-heart {
   background-image: url(../icons/heart-icon.png);
   background-size: cover;
+  
 }
 
 .icon-heart:hover {
@@ -167,6 +181,7 @@
 .icon-time {
   background-image: url(../icons/time-icon.png);
   background-size: cover;
+  
   margin-right: 0;
 }
 
@@ -174,18 +189,25 @@
   background-color: #1abc9c;
 }
 
+
 .icon-cart {
-  background-image: url(../icons/cart-icon.png);
-  background-size: cover;
+  font-size: 14px;
   text-transform: uppercase;
   text-decoration: none;
   background-color: #323232;
   color: #fff;
+  font-family: "opensans", sans-serif;
   width: 160px;
   height: 48px;
-
   margin-right: 0;
   margin-bottom: 0;
+}
+
+.img-icon {
+  vertical-align: middle;
+  height: 48px;
+  width: 48px;
+margin-right: 8px;
 }
 
 .icon-cart:hover {

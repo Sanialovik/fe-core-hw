@@ -1,5 +1,5 @@
 .title-center {
-  position: relative;
+
   font-size: 48px;
   text-transform: uppercase;
   color: #515151;
@@ -9,17 +9,15 @@
 }
 
 .title-center::after {
-  position: absolute;
-  text-align: center;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+
   content: '';
   display: block;
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
-  margin-top: 32px;
-    
+
+  margin: 32px auto 0;
 }
 
 
