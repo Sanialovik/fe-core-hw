@@ -160,7 +160,7 @@
 .icon-heart {
   background-image: url(../icons/heart-icon.png);
   background-size: cover;
-  
+
 }
 
 .icon-heart:hover {
@@ -181,7 +181,7 @@
 .icon-time {
   background-image: url(../icons/time-icon.png);
   background-size: cover;
-  
+
   margin-right: 0;
 }
 
@@ -207,7 +207,7 @@
   vertical-align: middle;
   height: 48px;
   width: 48px;
-margin-right: 8px;
+  margin-right: 8px;
 }
 
 .icon-cart:hover {
