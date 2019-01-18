@@ -1,38 +1,21 @@
-.flex-container {
-  display: flex;
-  padding: 16px;
-  background-color: #343434;
-  
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.flex-child {
-  height: 100px;
-  font-size: 36px;
-  color: #fefefe;
-  text-align: center;
-  /* line-height: 100; */
-  transition: all 1s ease-out;
-  list-style: none;
-  text-transform: uppercase;
-  text-decoration: none;
+html {
+  /* font-size: 30px; */
 }
 
-.flex-child:nth-child(1) {
-  width: 75px;
-  background-color: red;
+.page {
+  min-height: 100vh;
+  background-color: #fefefe;
 }
 
-.flex-child:nth-child(2) {
-  width: 100px;
-  background-color: yellow;
+.wrapper {
+  width: 960px;
+  margin: auto;
+  min-height: 100vh;
 }
 
-.flex-child:nth-child(3) {
-  width: 125px;
-  background-color: green;
-}
-
-.flex-child:nth-child(4) {
-  width: 150px;
-  background-color: blue;
-}

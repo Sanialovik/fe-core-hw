@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem;
+    
+}
+
+.footer-title {
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    align-self: center;
+}
+
+.colortext {
+    color: #f6a1a1;
+}
+
+.button {
+    background-color: #95e1d3;
+    color: #fff;
+    border: none;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 0.8rem 1.8rem;
+    
+}
