@@ -14,7 +14,7 @@
 
 .main-title {
     font-size: 1.5rem;
-    font-family: 'KaushanScript', sans-serif;
+    font-family: 'Kaushan Script', sans-serif;
     margin: 0 auto;
     color: #333;
     text-align: center;
@@ -27,6 +27,7 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #333;
+    font-weight: 900;
 
 }
 
@@ -41,8 +42,6 @@
 
 .gallery {
     display: flex;
-
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 3.75rem;
@@ -50,9 +49,9 @@
 
 .gallery-element {
 
-
+    display: flex;
     flex-basis: 30%;
-
+    justify-content: space-between;
     margin-bottom: 5.8rem;
 
 }
@@ -62,36 +61,37 @@
 }
 
 .icon {
-    /* display: block; */
     width: 2rem;
     height: 2rem;
 
 }
 
-.article {}
+.article {
+    flex-basis: 80%;
+}
 
 .bg-006_time {
-    background: url('../icons/css_sprites.png') -10px -10px;
+    background: url('../icons/css_sprites.png') -62px -62px;
 }
 
 .bg-010_blog {
-    background: url('../icons/css_sprites.png') -114px -62px;
-}
-
-.bg-009_search {
-    background: url('../icons/css_sprites.png') -114px -10px;
-}
-
-.bg-007_open_book {
-    background: url('../icons/css_sprites.png') -62px -10px;
-}
-
-.bg-008_home {
     background: url('../icons/css_sprites.png') -10px -62px;
 }
 
+.bg-009_search {
+    background: url('../icons/css_sprites.png') -114px -61px;
+}
+
+.bg-007_open_book {
+    background: url('../icons/css_sprites.png') -10px -10px;
+}
+
+.bg-008_home {
+    background: url('../icons/css_sprites.png') -114px -10px;
+}
+
 .bg-012_tools_and_utensils {
-    background: url('../icons/css_sprites.png') -62px -62px;
+    background: url('../icons/css_sprites.png') -62px -10px;
 }
 
 
@@ -131,61 +131,89 @@
 .figure {
 
     position: relative;
-
+    transition: 1s;
+    
 }
 
 .figure:hover .figure-socials {
     display: block;
-}
-
-.figure-socials {
-    position: absolute;
-    display: none;
     background: linear-gradient(to bottom, #f08a8a, #f1d586);
     height: 29.4rem;
     width: 23.75rem;
     opacity: 0.9;
-    top: 10%;
-    left: 11%;
-    transform: translate(-15%, -15%);
+    top: 0%;
+    left: 0%;
+    transform: translate(-10px, -10px);
+    transition: 1s;
+
+}
+
+.figure:hover .img {
+    top: 0%;
+    left: 0%;
+    transform: translate(-10px, -10px);
+    /* transition: 1s;  */
+    box-shadow: 5px 5px 0px 5px #95E1D3;
+
+}
+
+
+
+.figure-socials {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
     
+
 }
 
 .figure-socials-icon {
     display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 3.5rem;
+    width: 14rem;
+    background-color: #fce38a;
+    justify-content: space-around;
     align-items: center;
 }
 
-.icons {
-    
-    height: 3.5rem;
-    width: 3.5rem;
+
+.icons {}
+
+.icons:hover {}
+
+.facebook {
+    width: 13px;
+    height: 26px;
+
+    background: url('../icons/css_sprites3.png') -51px -56px;
 }
 
-.bg-013_facebook_2 {
-
-    background: url('../icons/css_sprites2.png') -94px -10px;
+.twitter {
+    width: 26px;
+    height: 22px;
+    background: url('../icons/css_sprites3.png') -56px -10px;
 }
 
-.bg-004_twitter_social_outlined_logo {
-
-    background: url('../icons/css_sprites2.png') -10px -10px;
+.pinterest {
+    width: 21px;
+    height: 26px;
+    background: url('../icons/css_sprites3.png') -10px -56px;
 }
 
-.bg-015_pinterest {
-
-    background: url('../icons/css_sprites2.png') -94px -94px;
-}
-
-.bg-014_instagram_logo {
-
-    background: url('../icons/css_sprites2.png') -10px -94px;
+.instagram {
+    width: 26px;
+    height: 26px;
+    background: url('../icons/css_sprites3.png') -10px -10px;
 }
 
 .img {
-    height: 29.4rem;
-    width: 23.75rem;
+    
 }
 
 
