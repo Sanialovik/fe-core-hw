@@ -152,9 +152,7 @@
     top: 0%;
     left: 0%;
     transform: translate(-10px, -10px);
-    /* transition: 1s;  */
-    box-shadow: 5px 5px 0px 5px #95E1D3;
-
+    box-shadow: 10px 10px 0px 0px #95E1D3;
 }
 
 
@@ -197,7 +195,7 @@
 }
 
 .icon-fon:hover {
-    background-color:  #95e1d3;
+    background-color: #95e1d3;
 
 }
 
