@@ -9,8 +9,55 @@
 
 <body class="page">
   <div class="wrapper">
-   
+    <form action="#">
+      <div>
+        <h2>Особиста інформація</h2>
+        <div>
+          <input type="text" placeholder="Введите имя" required></div>
+        <div><input type="password" placeholder="Введите пароль" required minlength="2" maxlength="6">
+        </div>
+        <div><input type="email" placeholder="Введите емейл" required></div>
+      </div>
+      <div>
+        <h2>Вибір опції</h2>
+        <label><input type="checkbox" name="check">checkbox 1</label>
+        <label><input type="checkbox" name="check">checkbox 2</label>
+        <label><input type="checkbox" name="check">checkbox 3</label>
+      </div>
+      <div>
+        <h2>План підписки</h2>
+        <label><input type="radio" name="subscr" id="">radio 1</label>
+        <label><input type="radio" name="subscr" id="">radio 2</label>
+        <label><input type="radio" name="subscr" id="">radio 3</label>
+      </div>
+      <div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="leave a message"></textarea>
+      </div>
+      <button type="submit">submit</button>
+
+      <div class="border">
+        <a class="icon" href=""></a>
+      </div>
+    </form>
+
+    <ul>
+      <li><input type="checkbox" name="" id="check-1" class="check">
+        <label class="input-label" for="check-1">
+          check-1
+        </label></li>
+      <li><input type="checkbox" name="" id="check-2" class="check">
+        <label class="input-label" for="check-2">
+          check-2
+        </label></li>
+      <li><input type="checkbox" name="" id="check-3" class="check">
+        <label class="input-label" for="check-3">
+          check-3
+        </label></li>
+    </ul>
     
+
+
+
   </div>
 </body>
 

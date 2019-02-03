@@ -132,7 +132,7 @@
 
     position: relative;
     transition: 1s;
-    
+
 }
 
 .figure:hover .figure-socials {
@@ -165,7 +165,7 @@
     justify-content: center;
     align-items: center;
     transition: 1s;
-    
+
 
 }
 
@@ -177,43 +177,63 @@
     transform: translate(-50%, -50%);
     height: 3.5rem;
     width: 14rem;
-    background-color: #fce38a;
+    /* background-color: #fce38a; */
     justify-content: space-around;
     align-items: center;
 }
 
 
-.icons {}
+.icons {
+    display: block;
 
-.icons:hover {}
+}
+
+.icon-fon {
+    display: flex;
+    background-color: #fce38a;
+    height: 3.5rem;
+    width: 3.5rem;
+
+}
+
+.icon-fon:hover {
+    background-color:  #95e1d3;
+
+}
 
 .facebook {
+    margin: auto;
     width: 13px;
     height: 26px;
-
     background: url('../icons/css_sprites3.png') -51px -56px;
 }
 
+
+
 .twitter {
+    margin: auto;
     width: 26px;
     height: 22px;
     background: url('../icons/css_sprites3.png') -56px -10px;
 }
 
 .pinterest {
+    margin: auto;
     width: 21px;
     height: 26px;
     background: url('../icons/css_sprites3.png') -10px -56px;
 }
 
 .instagram {
+    margin: auto;
     width: 26px;
     height: 26px;
     background: url('../icons/css_sprites3.png') -10px -10px;
 }
 
 .img {
-    
+    height: 470px;
+    width: 380px;
 }
 
 
