@@ -5,23 +5,41 @@
   /* height: 2000px; */
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .wrapper {
-  width: 1110px;
-  margin: auto;
+  background: linear-gradient(to right, red, green);
 
 }
 
+.wrapper--gradient {
+  background-image: url(../logo/nature.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 1110px;
+  margin: auto;
+}
+
 .page-header {
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 20px;
-  
-  
+
+
   padding: 20px;
   background: linear-gradient(to right, red, green);
-  
-  
+
+
 }
 
 .logo {
@@ -42,7 +60,7 @@
 
 .menu {
   display: flex;
-  
+
   list-style: none;
 
 }
@@ -71,11 +89,8 @@
 
 .promo {
   padding: 100px 0;
-  background-image: url(../logo/nature.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   
+
 }
 
 .promo-article {
@@ -102,27 +117,23 @@
   margin-bottom: 78px;
 }
 
-.section {
-  background-color: #3498DB;
-  
-  padding-bottom: 40px;
 
-
-}
 
 .section-title {
   font-size: 30px;
   margin-bottom: 20px;
+  
   text-transform: uppercase;
 }
 
 .section-body {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2rem;
 }
 
 .body-article {
-padding-top: 40px;
+  padding-top: 40px;
   background-color: green;
   color: white;
 }
@@ -164,8 +175,10 @@ padding-top: 40px;
 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 17px;
-  font-size: 14px;
-
+  font-size: 0.875rem;
+  line-height: 1.5;
+  max-height: 3.9rem;
+  overflow: hidden;
 }
 
 .button {
@@ -185,157 +198,26 @@ padding-top: 40px;
   transition: all 0.5s ease-out;
 }
 
-.body-figure {
-  position: relative;
-  margin-bottom: 102px;
-
+.feedback-article {
+  flex-basis: 50%;
 }
 
-.all-figure {
-  display: flex;
-  
-
-
+.feedback-article-title {
+  margin-bottom: 1rem;
 }
 
-.figure {
-  display: flex;
-  position: relative;
-
-  
-  
-  flex-wrap: wrap;
+.feedback-form {
+  flex-basis: 40%;
+  padding: 1rem;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
 }
 
-.figure:hover .figure-socials {
-  display: block;
+.feedback-form-input, .feedback-form-textarea {
+display: block;
+width: 100%;
+font-size: 1.125rem;
+padding: 0.5rem 0.25rem;
+margin-bottom: 1rem;
+resize: none;
 }
 
-.figure-socials {
-  display: none;
-  position: absolute;
-
-  opacity: 0.5;
-  background-color: yellow;
-
-
-
-}
-
-.icon {
-
-  display: inline-block;
-
-  height: 50px;
-  width: 50px;
-  background-color: #fff;
-  background-size: 20%;
-  background-size: cover;
-}
-
-.icon-facebook {
-  background-image: url(../icon/icon-facebook.png);
-  background-size: cover;
-}
-
-.icon-linkedin {
-  background-image: url(../icon/icon-linkedin.png);
-  background-size: cover;
-}
-
-.icon-twitter {
-  background-image: url(../icon/icon-twitter.png);
-  background-size: cover;
-}
-
-
-
-.gallery-img {
- 
-
-
-  height: 280px;
-}
-
-
-.text {
-  
-  display: flex;
-
-
-}
-
-
-.worlds {
-  flex-basis: 78%;
-
-  background-color: #323232;
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 18px;
-  padding: 12px 12px 12px;
-  text-transform: uppercase;
-}
-
-
-.price {
-  flex-basis: 22%;
-
-  background-color: #8c8c8c;
-  color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 18px;
-  text-transform: uppercase;
-  padding: 12px 10px 12px 10px;
-}
-
-.gallery-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fefefe;
-  border: 1px solid #fefefe;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 10px 20px;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.page-footer {
-  padding: 80px 0;
-}
-
-.footer-socials {
-  display: flex;
-}
-
-.footer-icon {
-  display: block;
-  height: 64px;
-  width: 64px;
-  
-}
-
-.bg-001_facebook {
-  
-  background: url('../icon/css_sprites.png') -10px -10px;
-}
-
-
-.bg-004_twitter_social_outlined_logo {
-  
-  background: url('../icon/css_sprites.png') -94px -10px;
-}
-
-
-.bg-005_linkedin_social_outline_logotype {
- 
-  background: url('../icon/css_sprites.png') -10px -94px;
-}
-
-
-.bg-006_google_plus {
-  
-  background: url('../icon/css_sprites.png') -94px -94px;
-}

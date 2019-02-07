@@ -49,7 +49,9 @@ li:hover .input-label::before {
 }
 
 .check:checked+.input-label::before {
-  background-color: red;
+  background-image: url(https://image.flaticon.com/icons/svg/3/3596.svg);
+  background-position: center;
+  background-size: cover;
 }
 
 textarea {

@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-one {
+    padding-top: 2.625rem;
+    
+    background-color: #fff;
+}
+
+.wrapper-services {
+    background-color: #fff;
+    padding-top: 7.375rem;
+    padding-bottom: 7.375rem;
+}
+
+.wrapper-contact-us {
+    background-color: #222;
+    padding-top: 6.75rem;
+    padding-bottom: 7.125rem;
+    background-image: url(../img/Map\ Image.png);
+    background-repeat: no-repeat;
+    background-position: 105% 76%;
+}
+
+
+
+.container {
+    margin: auto;
+    width: 58.75rem;
+}
