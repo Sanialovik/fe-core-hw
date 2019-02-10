@@ -1,0 +1,51 @@
+.colortext {
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    flex-wrap: wrap;
+}
+
+.input {
+    display: block;
+    flex-basis: 48%;
+    width: 28.4rem;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-family: "Montserat", sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.input:last-child {
+    margin-bottom: 0;
+}
+
+.textarea {
+    width: 28.4rem;
+    resize: none;
+    padding: 1.25rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-family: "Montserat", sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.button {
+    display: block;
+    font-size: 1.125rem;
+    color: #fff;
+    background-color: #fed136;
+    font-family: "Montserat", sans-serif;
+    text-transform: uppercase;
+    margin: 1.875rem auto 0;
+    padding: 1.5rem 2.875rem;
+    border: none;
+    font-weight: 800;
+}
