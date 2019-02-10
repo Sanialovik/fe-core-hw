@@ -4,19 +4,19 @@
     padding: 0;
 }
 
-.wrapper-one {
+.wrapper-header {
     padding-top: 2.625rem;
     
     background-color: #fff;
 }
 
-.wrapper-services {
+.wrapper-main {
     background-color: #fff;
     padding-top: 7.375rem;
     padding-bottom: 7.375rem;
 }
 
-.wrapper-contact-us {
+.wrapper-footer {
     background-color: #222;
     padding-top: 6.75rem;
     padding-bottom: 7.125rem;
