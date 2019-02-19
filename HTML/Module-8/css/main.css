@@ -1,0 +1,104 @@
+.main {
+    padding-top: 4.25rem;
+    padding-bottom: 1.75rem;
+}
+
+.gallery-element {
+    position: relative;
+
+
+    text-align: center;
+    margin-bottom: 1.75rem;
+}
+
+.gallery-element:last-child {
+    margin-bottom: 0;
+}
+
+.main-title {
+    font-size: 1.375rem;
+    color: #333;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    margin-bottom: 0.875rem;
+}
+
+.img {
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.titles {
+    color: #333;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    margin-bottom: 0.875rem;
+}
+
+.text {
+    color: #8f8f8f;
+    font-size: 0.875rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+
+.border {
+    display: flex;
+    position: absolute;
+    top: 31%;
+    left: 57%;
+    transform: translate(20%, 20%);
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+}
+
+.tv {
+    background-color: #ff4e50;
+}
+
+.probirca {
+    background-color: #ffa507;
+}
+
+.cup {
+    background-color: #1cd7ad;
+}
+
+.airplane {
+    background-color: #4e73db;
+}
+
+.icon {
+    display: block;
+}
+
+.icon-tv {
+    background: url(../icon/tv.png);
+    width: 17px;
+    height: 17px;
+}
+
+.icon-probirca {
+    background: url(../icon/probirca.png);
+    width: 13px;
+    height: 16px;
+}
+
+.icon-cup {
+    background: url(../icon/cup.png);
+    width: 17px;
+    height: 17px;
+}
+
+.icon-airplane {
+    background: url(../icon/airplane.png);
+    width: 17px;
+    height: 16px;
+}

@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-header {
+    padding-top: 1.875rem;
+    background-color: #1a1915;
+    background-image: url(../img/Vector\ Smart\ Object.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.wrapper-main {
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper-footer {
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin: auto;
+    max-width: 58.75rem;
+    min-width: 17.5rem;
+}

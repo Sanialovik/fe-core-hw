@@ -1,0 +1,10 @@
+@media (min-width: 940px) {
+    .gallery {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .gallery-element:nth-last-child(-n+4) {
+        margin-bottom: 0;
+    }
+}

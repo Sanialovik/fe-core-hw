@@ -1,0 +1,36 @@
+.menu {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 7.75rem;
+}
+
+.menu-item {
+    list-style: none;
+
+}
+
+.menu-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+}
+
+.menu-link:hover {
+    border: 2px solid #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.logo {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+
+}
