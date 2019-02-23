@@ -9,6 +9,14 @@
         flex-basis: 20%;
     }
 
+    .promo-title {
+        font-size: 3.25rem;
+    }
+
+    .promo-text {
+        font-size: 1.375rem;
+    }
+
     .main {
         padding-bottom: 2.375rem;
     }
