@@ -1,6 +1,10 @@
 .main {
     padding-top: 4.25rem;
-    padding-bottom: 1.75rem;
+    padding-bottom: 3.5rem;
+}
+
+.gallery {
+    margin-bottom: 1.75rem;
 }
 
 .gallery-element {
@@ -101,4 +105,17 @@
     background: url(../icon/airplane.png);
     width: 17px;
     height: 16px;
+}
+
+.footer-button {
+    display: block;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: #ff4e50;
+    background-color: #fff;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    padding: 0.625rem 4.375rem;
+    margin: auto;
 }

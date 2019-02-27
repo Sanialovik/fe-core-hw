@@ -1,3 +1,7 @@
+.header {
+    margin-bottom: 2.25rem;
+}
+
 .menu {
     display: flex;
     justify-content: space-around;
