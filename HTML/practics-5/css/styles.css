@@ -1,34 +1,53 @@
-
-.container {
-    max-width: 60rem;
-    min-width: 20rem;
-    margin: auto;
-    background-color: #333;
+.box {
+    height: 200px;
 }
 
-.row {
-display: flex;
+.box--pink {
+    background-color: pink;
 }
 
-.col {
-height: 3rem;
-
-background-color: orange;
-outline: 2px solid red;
+.box--darkpink {
+    background-color: #c21858;
 }
 
-.col-4 {
-    flex-basis: 100%;
+.box--lightblue {
+    background-color: aqua;
 }
 
-.col-3 {
-    flex-basis: 75%;
+.box--green {
+    background-color: green;
 }
 
-.col-2 {
-    flex-basis: 50%;
+.box--orange {
+    background-color: orange;
 }
 
-.col-1 {
-    flex-basis: 25%;
+.top-content,
+.bottom-content,
+.footer {
+    margin-top: 2rem;
+}
+
+.footer [class*="col-"]:last-child {
+margin-top: 1rem;
+}
+
+
+.top-content [class*="col-"],
+.bottom-content [class*="col-"] {
+    margin-top: 1rem;
+}
+
+.top-content [class*="col-"]:first-child,
+.bottom-content [class*="col-"]:first-child {
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .top-content [class*="col-"] {
+        margin-top: 1rem;
+    }
+    .footer [class*="col-"]:last-child {
+        margin-top: 0rem;
+        }
 }

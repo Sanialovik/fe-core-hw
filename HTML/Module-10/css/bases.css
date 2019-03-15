@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-header {
+    position: relative;
+    padding-top: 1.5rem;
+    padding-bottom: 14.25rem;
+    background: linear-gradient(to bottom, #f08a8a, #f1d586);
+    
+
+}
+
+.wrapper-header::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    content: '';
+    background-image: url(../img/Layer\ 15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.wrapper-main {
+    background-color: #fff;
+    padding-top: 2.75rem;
+}
+
+.wrapper-footer {
+    background-color: #fff;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+
+.container {
+    width: 75rem;
+    margin: auto;
+}

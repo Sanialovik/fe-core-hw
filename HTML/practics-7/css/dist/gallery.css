@@ -1,0 +1,35 @@
+.gallery {
+    padding: 2rem;
+}
+
+.gallery__title {
+    font-size: 2rem;
+}
+
+.gallery__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.gallery__item {
+    
+    
+    -ms-flex-preferred-size: 49%;
+    
+    
+    flex-basis: 49%;
+    margin-bottom: 0.5rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
