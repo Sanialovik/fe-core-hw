@@ -1,10 +1,10 @@
-.section-one {
+.main__section {
     margin-bottom: 5.5rem;
 
 }
 
 
-.main-title {
+.section__title {
     font-size: 1.5rem;
     font-family: 'Kaushan Script', sans-serif;
     margin: 0 auto;
@@ -13,7 +13,7 @@
     margin-bottom: 1.25rem;
 }
 
-.two-title {
+.section__two-title {
     font-size: 1.8rem;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -23,7 +23,7 @@
 
 }
 
-.two-title::after {
+.section__two-title::after {
     display: block;
     content: '';
     width: 3.75rem;
@@ -39,7 +39,7 @@
     margin-top: 3.75rem;
 }
 
-.gallery-element {
+.gallery__element {
 
     display: flex;
     flex-basis: 30%;
@@ -48,23 +48,23 @@
 
 }
 
-.gallery-element:nth-last-child(-n+3) {
+.gallery__element:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
 
-.main-icon {
+.gallery__icon {
     display: block;
     width: 2rem;
     height: 2rem;
 
 }
 
-.article {
+.gallery__article {
     flex-basis: 80%;
 }
 
 
-.titles {
+.article__titles {
     font-size: 0.8rem;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -72,13 +72,13 @@
     margin-bottom: 1rem;
 }
 
-.text {
+.article__text {
     font-size: 0.9rem;
     font-family: 'roboto', sans-serif;
     color: #b3b3b3;
 }
 
-.text-two {
+.section__prolog {
     font-size: 0.9rem;
     font-family: 'roboto', sans-serif;
     color: #b3b3b3;
@@ -103,7 +103,7 @@
 
 }
 
-.figure:hover .figure-socials {
+.figure--hover:hover .figure__socials {
     display: block;
     background: linear-gradient(to bottom, #f08a8a, #f1d586);
     height: 29.4rem;
@@ -116,7 +116,7 @@
 
 }
 
-.figure:hover .img {
+.figure--hover:hover .figure__img {
     top: 0%;
     left: 0%;
     transform: translate(-10px, -10px);
@@ -125,7 +125,7 @@
 
 
 
-.figure-socials {
+.figure__socials {
     position: absolute;
     display: none;
     justify-content: center;
@@ -135,7 +135,7 @@
 
 }
 
-.figure-socials-icon {
+.socials__icon {
     display: flex;
     position: absolute;
     top: 50%;
@@ -148,7 +148,7 @@
 }
 
 
-.icons {
+.socials__icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,18 +156,18 @@
     width: 3.5rem;
 }
 
-.socset {
+.socials__svg {
     display: block;
     width: 100%;
     height: 1.625rem;
     fill: #f38181;
 }
 
-.icons:hover>.socset {
+.socials__icons--hover:hover>.socials__svg {
     fill: #fff;
 }
 
-.icon-fon {
+.socials__fon {
     display: flex;
     background-color: #fce38a;
     height: 3.5rem;
@@ -175,24 +175,24 @@
 
 }
 
-.icon-fon:hover {
+.socials__fon--hover:hover {
     background-color: #f38181;
 
 }
 
-.img {
+.figure__img {
     height: 470px;
     width: 380px;
 }
 
 
 
-.figcaption {
+.figure__figcaption {
     text-align: center;
     margin-top: 1.8rem;
 }
 
-.name {
+.figcaption__name {
     font-size: 0.8rem;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -200,17 +200,17 @@
     margin-bottom: 0.75rem;
 }
 
-.profession {
+.figcaption__profession {
     font-size: 0.9rem;
     font-family: 'roboto', sans-serif;
     color: #b3b3b3;
 }
 
-.content::after {
+.main::after {
     display: block;
     content: '';
     background-color: #e5e5e5;
     height: 0.07rem;
     width: 100%;
-    margin-top: 5rem;
+    
 }

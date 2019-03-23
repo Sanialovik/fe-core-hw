@@ -5,7 +5,7 @@
 
 }
 
-.title {
+.header__title {
     font-size: 1.875rem;
     font-family: 'montserrat', sans-serif;
     color: #fff;
@@ -14,42 +14,45 @@
 
 .menu {
     display: flex;
-    list-style: none;
     align-items: center;
     flex-basis: 51%;
     justify-content: space-between;
 }
 
+.menu__item {
+    list-style: none;
+}
 
-.menu-link {
+.menu__link {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 0.875rem;
     font-family: 'montserrat', sans-serif;
     color: #fff;
     font-weight: 700;
-
+    fill: #fff;
 }
 
-.menu-link::after {
+.menu__link::after {
     display: none;
     content: '';
     width: 100%;
     height: 0.2rem;
     margin-top: 0.6rem;
+    
 }
 
-.menu-link:hover:after {
-    background-color: #fce38a;
+.menu__link:hover:after {
     display: block;
+    background-color: #fce38a;
 }
 
-.menu-link:hover {
+.menu__link--hover:hover {
     color: #fce38a;
-
+    fill: #fce38a;
 }
 
-.link-svg {
+.menu__svg {
     display: block;
     height: 1.125rem;
     width: 1.125rem;

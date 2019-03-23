@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.promo-title {
+.promo__title {
 font-size: 4.5rem;
 color: #fff;
 font-family: 'Kaushan Script', sans-serif;
@@ -10,7 +10,7 @@ font-weight: 400;
 margin-bottom: 2.375rem;
 }
 
-.promo-welcome {
+.promo__welcome {
 font-size: 9.375rem;
 color: #fff;
 text-transform: uppercase;
@@ -19,7 +19,7 @@ font-weight: 900;
 margin-bottom: 7.625rem;
 }
 
-.promo-btn {
+.promo__btn {
 color: #fff;
 font-size: 0.875rem;
 font-family: 'montserrat', sans-serif;
