@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 h1 {
     font-size: 20px;
 }
@@ -20,6 +21,7 @@ $container-width: 960px;
 body {
     line-height: 1.5;
     background-color: $primary-light-color;
+    color: aqua;
 }
 
 .container {

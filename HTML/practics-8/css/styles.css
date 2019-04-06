@@ -13,7 +13,8 @@ h1 {
 
 body {
   line-height: 1.5;
-  background-color: #fff; }
+  background-color: #fff;
+  color: aqua; }
 
 .container {
   max-width: 960px;
