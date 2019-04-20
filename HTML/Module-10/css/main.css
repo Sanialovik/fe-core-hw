@@ -59,7 +59,7 @@
 
 }
 
-.gallery__article {
+.article {
     flex-basis: 80%;
 }
 
@@ -103,7 +103,7 @@
 
 }
 
-.figure--hover:hover .figure__socials {
+.figure:hover .figure__socials {
     display: block;
     background: linear-gradient(to bottom, #f08a8a, #f1d586);
     height: 29.4rem;
@@ -116,7 +116,7 @@
 
 }
 
-.figure--hover:hover .figure__img {
+.figure:hover .figure__img {
     top: 0%;
     left: 0%;
     transform: translate(-10px, -10px);
@@ -135,7 +135,7 @@
 
 }
 
-.socials__icon {
+.socials {
     display: flex;
     position: absolute;
     top: 50%;
@@ -163,7 +163,7 @@
     fill: #f38181;
 }
 
-.socials__icons--hover:hover>.socials__svg {
+.socials__icons:hover>.socials__svg {
     fill: #fff;
 }
 
@@ -175,7 +175,7 @@
 
 }
 
-.socials__fon--hover:hover {
+.socials__fon:hover {
     background-color: #f38181;
 
 }

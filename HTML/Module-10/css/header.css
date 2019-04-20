@@ -47,7 +47,7 @@
     background-color: #fce38a;
 }
 
-.menu__link--hover:hover {
+.menu__link:hover {
     color: #fce38a;
     fill: #fce38a;
 }
