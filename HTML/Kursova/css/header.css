@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10.25rem;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo-icon {
+    display: block;
+    width: 2.875rem;
+    height: 3rem;
+    margin-right: 0.875rem;
+}
+
+.logo-title {
+    color: #0daeae;
+    font-size: 1.875rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 55%;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.8125rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+.menu-link:hover {
+    color: #00e0d0;
+}

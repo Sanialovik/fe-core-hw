@@ -1,0 +1,78 @@
+.promo {
+    text-align: center;
+}
+
+.promo-title {
+    font-size: 2rem;
+    color: #fff;
+    font-family: "PlayfairDisplay", sans-serif;
+    font-weight: 900;
+
+
+}
+
+.promo-title::after {
+    display: block;
+    content: "";
+    background-color: #00e0d0;
+    width: 3.125rem;
+    height: 0.0625rem;
+    margin: 1.25rem auto 1.75rem;
+}
+
+.promo-text {
+    color: #fff;
+    font-size: 0.875rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 3.125rem;
+}
+
+.btn {
+    display: inline-block;
+    color: #03d4c8;
+    border: 1px solid #00e0d0;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0.875rem 0.875rem;
+    font-family: "HammersmithOne", sans-serif;
+    
+}
+
+.promo-radio {
+    display: flex;
+    justify-content: center;
+    margin-top: 7.75rem;
+}
+
+
+
+.radio-btn {
+    display: none;
+
+
+}
+
+
+
+.radio-label::before {
+    display: block;
+    content: "";
+    border-radius: 50%;
+    border: 1px solid #bab9bc;
+    height: 0.625rem;
+    width: 0.625rem;
+    margin-right: 0.3125rem;
+
+}
+
+.radio-label:last-child:before {
+    margin-right: 0;
+}
+
+.radio-btn:checked+.radio-label::before {
+    background-color: #00e0d0;
+}

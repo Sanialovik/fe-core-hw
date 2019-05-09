@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 58.75rem;
+    margin: auto;
+}
+
+.wrapper-header {
+    padding-top: 1rem;
+    padding-bottom: 4.25rem;
+    background-image: linear-gradient(90deg, rgba(17,15,50,0.9) 0%, rgba(62,43,101,0.9) 100%), url(../img/forest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper-about {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+    background-color: #fff;
+}
+
+.wrapper-video {
+    padding-top: 12.625rem;
+    padding-bottom: 12.375rem;
+    background-image: linear-gradient(90deg, rgba(17,15,50,0.9) 0%, rgba(62,43,101,0.9) 100%), url(../img/town.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper-expertise {
+    padding-top: 4.375rem;
+    padding-bottom: 6.25rem;
+    background-color: #fff;
+}
+
+.wrapper-team {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+    background-image: linear-gradient(90deg, rgba(17,15,50,0.9) 0%, rgba(62,43,101,0.9) 100%), url(../img/forest\ green.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper-works {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.wrapper-people {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+    background-image: linear-gradient(90deg, rgba(17,15,50,0.9) 0%, rgba(62,43,101,0.9) 100%), url(../img/forest\ down.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

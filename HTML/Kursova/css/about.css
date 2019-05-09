@@ -1,0 +1,42 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about-img {
+    display: block;
+    height: 14.3125rem;
+    width: 14.6875rem;
+
+}
+
+.about-article {
+    flex-basis: 57%;
+}
+
+.about-title {
+    font-size: 1.375rem;
+    color: #413d4b;
+    text-transform: uppercase;
+    margin-bottom: 1.625rem;
+    font-family: "PlayfairDisplay", sans-serif;
+    font-weight: 900;
+
+}
+
+.about-text {
+    color: #716e78;
+    font-size: 0.875rem;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+    margin-bottom: 1.75rem;
+}
+
+.about-text:nth-last-child(2n) {
+    margin-bottom: 0;
+}
+
+.about-btn {
+    margin-top: 1.875rem;
+}
