@@ -1,9 +1,69 @@
 .people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-.people-svg {
-    
+.people-icon {
+    display: block;
     height: 1.625rem;
     width: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.people-text {
+    font-size: 1rem;
+    font-family: "PlayfairDisplay", sans-serif;
+    color: #bfbcc9;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 3.125rem;
+}
+
+.people-name {
+    font-size: 0.875rem;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.people-profession {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.8125rem;
+    color: #bfbcc9;
+    text-transform: uppercase;
+    margin-bottom: 2.625rem;
+}
+
+.people-photos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 42%;
+
+}
+
+.people-photos::before {
+    display: block;
+    content: "\2039";
+    color: #9f9f9f;
+    font-size: 2rem;
+}
+
+.people-photos::after {
+    display: block;
+    content: "\203a";
+    color: #9f9f9f;
+    font-size: 2rem;
+}
+
+.people-img {
+    border-radius: 50%;
+}
+
+.people-big-img {
+    border-radius: 50%;
 }
