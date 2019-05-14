@@ -43,7 +43,7 @@
     align-items: center;
     justify-content: space-around;
     width: 42%;
-
+    height: 4.375rem;
 }
 
 .people-photos::before {
@@ -61,9 +61,12 @@
 }
 
 .people-img {
+    height: 2.8125rem;
+    width: 2.8125rem;
     border-radius: 50%;
 }
 
-.people-big-img {
-    border-radius: 50%;
+.people-img:hover {
+    height: 4.375rem;
+    width: 4.375rem;
 }
