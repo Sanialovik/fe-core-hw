@@ -69,11 +69,11 @@
 .footer-form {
     display: flex;
     align-items: center;
-   
+    margin-bottom: 1.625rem;
 }
 
 .footer-input {
-    
+
     font-size: 0.875rem;
     font-family: "Roboto", sans-serif;
     color: #bbb6c8;
@@ -93,11 +93,56 @@
     height: 1.5625rem;
     width: 1.5625rem;
     background-color: transparent;
-    
+
 }
 
 
 
 .footer-btn:hover {
     background-color: #9d95ae;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+}
+
+.footer-svg {
+    display: block;
+    height: 2.3rem;
+    width: 2.3rem;
+
+}
+
+.footer-down {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 100%;
+    margin-top: 4.25rem;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 32%;
+}
+
+.footer-item {
+    list-style: none;
+}
+
+.footer-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.875rem;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.footer-year {
+    color: #fff;
+    font-size: 0.875rem;
+    font-family: "Roboto", sans-serif;
 }
