@@ -39,24 +39,28 @@
     font-weight: 700;
     padding: 0.875rem 0.875rem;
     font-family: "HammersmithOne", sans-serif;
-    
+
 }
 
 .promo-radio {
     display: flex;
     justify-content: center;
+    
     margin-top: 7.75rem;
+    list-style: none;
 }
 
+.promo-item {
+    margin-right: 0.3125rem;
+}
 
+.promo-item:last-child {
+    margin-right: 0;
+}
 
 .radio-btn {
     display: none;
-
-
 }
-
-
 
 .radio-label::before {
     display: block;
@@ -65,12 +69,8 @@
     border: 1px solid #bab9bc;
     height: 0.625rem;
     width: 0.625rem;
-    margin-right: 0.3125rem;
 
-}
 
-.radio-label:last-child:before {
-    margin-right: 0;
 }
 
 .radio-btn:checked+.radio-label::before {

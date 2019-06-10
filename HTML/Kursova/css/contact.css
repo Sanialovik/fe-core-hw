@@ -54,19 +54,13 @@
 .contact-logo {
     display: flex;
     justify-content: space-between;
-    align-content: space-between;
     flex-wrap: wrap;
-    
 }
-
 
 
 .contact-svg {
     display: block;
     height: 4.375rem;
     width: 10rem;
-    
-
-
+    margin-bottom: 1.5rem;
 }
-
