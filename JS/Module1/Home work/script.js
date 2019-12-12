@@ -66,9 +66,9 @@
 // ямайка - 120 кредитов
 // PS: используй switch
 
-// let country = prompt("Куда отправить товар?");
+// let country = prompt("Куда отправить товар?").toLowerCase();
 
-// if (country = String(country)) {
+// if (country) {
 //     switch (country) {
 //         case 'китай':
 //             console.log(`Доставка в ${country} будет стоить 100 кредитов`);
