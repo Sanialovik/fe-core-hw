@@ -71,9 +71,9 @@
 // console.log(add(5, 10, 15, 20, 25, 30));
 
 
-// const fn = function (arr, ...args) {
-// console.log(arr);
-// console.log(args);
+const fn = function (arr, ...args) {
+console.log(arr);
+console.log(args);
 // // const arr = args[0];
 // // console.log('arr: ', arr);
 // // const values = args.slice(1);
@@ -83,10 +83,10 @@
 // //     console.log(values[i]);
 // // }
 
-// };
+};
 
-// fn([1, 2, 3], 3, 4, 5);
-// fn([4, 6, 7], 9, 4, 12, 19);
+fn([1, 2, 3], [4, 5, 6], 3, 4, 5);
+fn([4, 6, 7], 9, 4, 12, 19);
 
 
 // const great = function(name) {
