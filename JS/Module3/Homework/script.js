@@ -85,13 +85,11 @@
 // Если длина строки не превышает 40 символов, функция возвращает ее в исходном виде.
 // Если длина больше 40 символов, то функция обрезает строку до 40-ка символов и добавляет в конец строки троеточие '...', после чего возвращает укороченную версию.
 // const formatString = function (string) {
-//   const arr = string.split('');
-//   for (let i = 0; i < arr.length; i += 1) {
-//     if (arr.length <= 40) {
-//       console.log(arr);
-//     } else if (arr.length > 40) {
-//       console.log(arr.splice(40, 23, '...'));
-//     }
+//   if (string.length > 40) {
+//     return string.slice(0, 40)+'...';
+
+//   } else {
+//     return string;
 //   }
 
 // };
@@ -113,7 +111,7 @@
 //     'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
 //   ),
 // );
-// // вернется форматированная строка
+// вернется форматированная строка
 
 
 
@@ -195,17 +193,29 @@
 // isLoginValid только проверяет валидный ли логин и возвращает true или false.
 // addLogin добавляет или не добавляет логин в массив. При этом для проверок условия добавления использует результаты вызовов других функций - isLoginUnique и isLoginValid.
 const logins = ['Mango', 'robotGoogles', 'Poly', 'Aj4x1sBozz', 'qwerty123'];
-
-const isLoginValid = function(login) {
-  // твой код
+// let login = prompt("Введите новый логин");
+const isLoginValid = function (login) {
+  if (login.length < 4 || login.length > 16) {
+    return false;
+  }
+  return true;
 };
 
-const isLoginUnique = function(allLogins, login) {
-  // твой код
+const isLoginUnique = function (allLogins, login) {
+  if (allLogins.includes(login)) {
+    return false;
+
+  } 
+  return true;
+
 };
 
-const addLogin = function(allLogins, login) {
-  // твой код
+const addLogin = function (allLogins, userlogin) {
+  if (isLoginValid(userlogin) && isLoginUnique(allLogins, userlogin)) {
+    alert('Логин успешно добавлен');
+    allLogins.push(userlogin);
+  }
+
 };
 
 /*
@@ -215,3 +225,5 @@ console.log(addLogin(logins, 'Ajax')); // 'Логин успешно добав�
 console.log(addLogin(logins, 'robotGoogles')); // 'Такой логин уже используется!'
 console.log(addLogin(logins, 'Zod')); // 'Ошибка! Логин должен быть от 4 до 16 символов'
 console.log(addLogin(logins, 'jqueryisextremelyfast')); // 'Ошибка! Логин должен быть от 4 до 16 символов'
+
+console.log(logins);
