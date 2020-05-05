@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 69.5rem;
+    padding-top: 2.375rem;
+    margin: auto;
+}

@@ -1,0 +1,135 @@
+.content {
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+}
+
+.section {}
+
+.section-title {
+    font-size: 3rem;
+    color: #515151;
+    font-family: "Roboto-Black", sans-serif;
+    text-align: center;
+
+}
+
+.section-title::after {
+    display: block;
+    content: "";
+    width: 10.25rem;
+    height: 0.5rem;
+    background-color: #1ABC9C;
+    margin: 1.875rem auto 0;
+}
+
+.body-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5.625rem;
+    margin-bottom: 6.5rem;
+}
+
+.figure {
+    font-size: 0;
+    width: 16rem;
+    margin-bottom: 1.875rem;
+}
+
+.figure:nth-last-child(-n+4) {
+    margin-bottom: 0;
+}
+
+.figure-img {
+    width: 16rem;
+    height: 17.5rem;
+    background-color: #E9F0FD;
+}
+
+
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+}
+
+.world {
+    font-size: 1.125rem;
+    font-family: "Roboto-Black", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #323232;
+    width: 100%;
+    padding: 0.875rem;
+}
+
+
+
+.price {
+    font-size: 1.125rem;
+    font-family: "Roboto-Black", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #8C8C8C;
+    padding: 0.875rem;
+}
+
+.figure:hover .world {
+    background-color: #1ABC9C;
+}
+
+.figure:hover .price {
+    background-color: #7FD9C7;
+}
+
+.body-article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.article {
+    flex-basis: 32%;
+}
+
+.article-img {
+    display: block;
+    width: 100%;
+    height: 16.375rem;
+    margin-bottom: 0.875rem;
+}
+
+.article-title {
+    font-size: 1.125rem;
+    color: #555252;
+    font-family: "OpenSans-Semibold", sans-serif;
+}
+
+.article-title::after {
+    display: block;
+    content: "";
+    width: 8.625rem;
+    height: 0.25rem;
+    background-color: #4EC6AB;
+    margin-top: 0.625rem;
+    margin-bottom: 1.75rem;
+}
+
+.article-text {
+    font-size: 0.875rem;
+    color: #555252;
+    font-family: "OpenSans-Semibold", sans-serif;
+    line-height: 1.5;
+    margin-bottom: 0.875rem;
+}
+
+.article-btn {
+    font-size: 1rem;
+    font-family: "OpenSans-Semibold", sans-serif;
+    color: #fff;
+    background-color: #4EC6AB;
+    padding: 20px 42px;
+    border: none;
+}
