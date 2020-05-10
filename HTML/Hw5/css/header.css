@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 4.875rem;
+    height: 1.375rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 42%;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: #0F0101;
+    font-family: "OpenSans-Bold", sans-serif;
+    font-weight: 700;
+}
+
+.menu-link:hover {
+    color: #1ABC9C;
+}

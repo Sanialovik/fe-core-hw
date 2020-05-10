@@ -1,0 +1,159 @@
+.main-title {
+    font-size: 48px;
+    color: #515151;
+    font-family: "Roboto-Black", sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+.main-title::after {
+    display: block;
+    content: "";
+    margin: 30px auto 80px;
+    background-color: #1ABC9C;
+    width: 164px;
+    height: 8px;
+}
+
+.main-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-figure {
+    position: relative;
+    flex-basis: 23%;
+
+}
+
+.figure {}
+
+.body-figure:hover .world {
+    background-color: #1ABC9C;
+}
+
+.body-figure:hover .price {
+    background-color: #7FD9C7;
+}
+
+.figure-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.world {
+    font-size: 18px;
+    font-family: "Roboto-Light", sans-serif;
+    color: #fff;
+    background-color: #323232;
+    padding: 14px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.price {
+    font-size: 18px;
+    font-family: "Roboto-Light", sans-serif;
+    color: #fff;
+    padding: 14px;
+    background-color: #8C8C8C;
+}
+
+.figure-socials {
+    display: none;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #737373;
+    opacity: 0.8;
+    width: 90%;
+    height: 74%;
+
+
+
+}
+
+.body-figure:hover>.figure-socials {
+    display: block;
+}
+
+.figure-socials-icon {
+    position: absolute;
+    top: 22%;
+    left: 14%;
+}
+
+.icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    margin-right: 8px;
+    margin-bottom: 6px;
+}
+
+.icon:last-child {
+    margin-right: 0;
+}
+
+.icon:hover {
+    background-color: #1ABC9C;
+}
+
+.icon-check {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    background-color: #323232;
+    width: 174px;
+    
+}
+
+.icon-check:hover {
+    background-color: #1ABC9C;
+
+}
+
+.icon-text {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-family: "OpenSans", sans-serif;
+}
+
+.icon-heart {
+    background-image: url(../icons/heart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-arrows {
+    background-image: url(../icons/arrows.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-clock {
+    background-image: url(../icons/clock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-basket {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../icons/basket.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}

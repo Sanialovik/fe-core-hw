@@ -1,0 +1,60 @@
+.slider {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.slider-content {
+    color: #fff;
+    font-family: "Roboto-Light", sans-serif;
+}
+
+.slider::before {
+    display: block;
+    position: relative;
+    content: "";
+    width: 6.5rem;
+    height: 6.5rem;
+    top: 0.625rem;
+    left: 0.625rem;
+    background-color: #4E9B89;
+    background-image: url(../img/Skype1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider::after {
+    display: block;
+    position: relative;
+    content: "";
+    width: 6.5rem;
+    height: 6.5rem;
+    top: 0.625rem;
+    right: 0.625rem;
+    background-color: #4E9B89;
+    background-image: url(../img/Skype2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider:hover::after {
+    background-color: #1ABC9C;
+}
+
+.slider:hover::before {
+    background-color: #1ABC9C;
+}
+
+
+
+.slider-title {
+    font-size: 2.875rem;
+    font-weight: 700;
+    margin-bottom: 2.125rem;
+
+}
+
+.slider-text {
+    font-size: 1.25rem;
+
+}
