@@ -24,7 +24,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    
+
     flex-basis: 23%;
 
 }
@@ -79,12 +79,11 @@
     position: absolute;
     justify-content: center;
     align-items: center;
-    background-color: #737373;
-    opacity: 0.8;
+    background: rgba(115, 115, 115, 0.7);
     width: 90%;
     height: 74%;
     top: 5%;
-    
+
 }
 
 .figure-socials-icon {
@@ -92,7 +91,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     flex-basis: 72%;
-    
+
 
 }
 
