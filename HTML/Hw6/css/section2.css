@@ -1,0 +1,106 @@
+.section-text {
+    margin: 2.875rem auto 5.625rem;
+    width: 78%;
+    text-align: center;
+    font-size: 0.9375rem;
+    font-family: "Roboto-Regular", sans-serif;
+    color: #999;
+
+}
+
+.section-figure {
+    display: flex;
+    justify-content: space-between;
+}
+
+.element-figure {
+    position: relative;
+    flex-basis: 32%;
+}
+
+
+.element-figure:hover>.figure-socials {
+    display: flex;
+}
+
+
+.figure-img {
+    display: block;
+    width: 23.75rem;
+    height: 29.375rem;
+    margin-bottom: 1.875rem;
+}
+
+.caption {
+    line-height: 1.5;
+}
+
+.name {
+    text-transform: uppercase;
+    color: #333;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.profession {
+    font-size: 0.9375rem;
+    color: #999;
+    font-family: "Roboto-Regular", sans-serif;
+    text-align: center;
+}
+
+.figure-socials {
+    display: none;
+    position: absolute;
+    width: 23.75rem;
+    height: 29.375rem;
+    top: 0;
+    left: 0;
+    transform: translate(-10px, -10px);
+    background: linear-gradient(180deg, rgba(240, 138, 138, 0.9) 0%, rgba(241, 214, 135, 0.9) 100%);
+    box-shadow: 0.625rem 0.625rem 0px 0px rgba(149, 225, 211, 1);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.figure-socials-icons {
+    display: flex;
+    background-color: #FCE38A;
+
+}
+
+.icon {
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.icon:hover {
+    background-color: #95E1D3;
+}
+
+.facebook {
+    background: url(../icon/facebook.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitter {
+    background: url(../icon/twitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pinterest {
+    background: url(../icon/pinterest.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.instagram {
+    background: url(../icon/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,113 @@
+.content::after {
+display: block;
+content: "";
+width: 100%;
+height: 0.125rem;
+background-color: #E5E5E5;
+margin-top: 90px;
+}
+
+.section {
+    margin-bottom: 5.625rem;
+}
+
+.section:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    color: #333;
+    font-family: "Kaushan Script", sans-serif;
+    margin-bottom: 1.375rem;
+    text-align: center;
+}
+
+.section-descr {
+    font-size: 1.875rem;
+    color: #333;
+    font-family: "Montserrat-Bold", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-descr::after {
+    display: block;
+    content: "";
+    width: 3.75rem;
+    height: 0.25rem;
+    background-color: #F38181;
+    margin: 2.5rem auto 0;
+}
+
+
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.gallery-element {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+    margin-bottom: 6.25rem;
+}
+
+.gallery-element:nth-last-child(-n+3) {
+    margin-bottom: 0;
+}
+
+.gallery-icon {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
+.gallery-article {
+    flex-basis: 81%;
+}
+
+.article-title {
+    font-size: 0.875rem;
+    color: #333;
+    font-family: "Montserrat-Regular", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+    
+}
+
+.article-text {
+    font-size: 0.9375rem;
+    font-family: "Roboto-Regular", sans-serif;
+    color: #999;
+}
+
+.clock {
+    background-image: url(../icon/clock.png);
+}
+
+.image {
+    background-image: url(../icon/IMAGE.png);
+}
+
+.computer {
+    background-image: url(../icon/COMPUTER.png);
+}
+
+.book {
+    background-image: url(../icon/BOOK.png);
+}
+
+.home {
+    background-image: url(../icon/HOME.png);
+}
+
+.linegraph {
+    background-image: url(../icon/LINEGRAPH.png);
+}
