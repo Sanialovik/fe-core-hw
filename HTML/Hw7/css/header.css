@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    width: 5rem;
+    height: 1.75rem;
+    background-image: url(../icons/Logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.menu {
+    display: flex;
+    flex-basis: 51%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    font-size: 0.875rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.menu-link:hover {
+color: #FED136;
+}

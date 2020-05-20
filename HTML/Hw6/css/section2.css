@@ -19,13 +19,25 @@
 }
 
 
+
 .element-figure:hover>.figure-socials {
     display: flex;
 }
 
 
+
+/* .element-figure:hover > .figure {
+    
+    top: 0;
+    left: 0;
+    transform: translate(-10px, -10px);
+} */
+
+
+
 .figure-img {
     display: block;
+    
     width: 23.75rem;
     height: 29.375rem;
     margin-bottom: 1.875rem;

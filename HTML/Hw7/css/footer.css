@@ -1,0 +1,62 @@
+.footer {
+    text-align: center;
+}
+
+.section-title--contact {
+    color: #FFF;
+}
+
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 456px;
+}
+
+.input {
+    flex-basis: 50%;
+    font-size: 0.875rem;
+    color: #BBB;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 1.75rem;
+    padding: 1.25rem;
+}
+
+.input:last-child {
+    margin-bottom: 0;
+}
+
+.textarea {
+    flex-basis: 48%;
+    font-size: 0.875rem;
+    color: #BBB;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 1.25rem;
+    resize: none;
+}
+
+.form-btn {
+    display: block;
+    font-size: 1.125rem;
+    color: #FFF;
+    margin: 1.875rem auto 0;
+    padding: 1.625rem 3rem;
+    background-color: #FED136;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}

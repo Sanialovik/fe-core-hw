@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-header {
+    padding-top: 2.75rem;
+    background-color: #fff;
+}
+
+.wrapper-main {
+    padding-top: 7.25rem;
+    padding-bottom: 7.25rem;
+    background-color: #FFF;
+}
+
+.wrapper-footer {
+    padding-top: 7.25rem;
+    padding-bottom: 7.25rem;
+    background-color: #222;
+    background-image: url(../img/map.png);
+    background-position: 106% 76%;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    max-width: 58.75rem;
+    min-width: 20rem;
+    margin: auto;
+}
