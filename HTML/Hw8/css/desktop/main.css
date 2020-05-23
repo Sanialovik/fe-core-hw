@@ -1,0 +1,6 @@
+@media (min-width: 940px) {
+    .gallery {
+        flex-basis: 25%;
+        margin-bottom: 0;
+    }
+}

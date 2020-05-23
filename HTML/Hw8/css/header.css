@@ -1,0 +1,41 @@
+.header {
+    margin-bottom: 2.375rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 7.125rem;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 0.875rem;
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    border: 2px solid transparent;
+    padding: 0.75rem 1.25rem;
+    border-radius: 1.875rem;
+
+}
+
+.menu-link:hover {
+    border: 2px solid #fff; 
+}
+
+.logo {
+    display: block;
+    width: 11.125rem;
+    height: 1.25rem;
+    background: url(../icon/logo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}

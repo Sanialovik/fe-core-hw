@@ -1,0 +1,92 @@
+.main {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 1.375rem;
+    color: #333;
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.875rem;
+}
+
+.body-gallery {
+    margin-bottom: 1.75rem;
+}
+
+.gallery {
+    margin-bottom: 1.75rem;
+
+}
+
+
+
+.gallery-partner {
+    position: relative;
+    margin: auto;
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-bottom: 1.25rem;
+
+}
+
+.partner-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.partner-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block;
+    width: 2.125rem;
+    height: 2.125rem;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
+
+.icon-tv {
+    background-image: url(../icon/tv.png);
+    background-color: #FF4E50;
+}
+
+.icon-colba {
+    background-image: url(../icon/colba.png);
+    background-color: #FFA507;
+}
+
+.icon-cup {
+    background-image: url(../icon/cup.png);
+    background-color: #1CD7AD;
+}
+
+.icon-airplane {
+    background-image: url(../icon/airplane.png);
+    background-color: #4E73DB;
+}
+
+.gallery-name {
+    font-size: 0.875rem;
+    color: #333;
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.gallery-text {
+    font-size: 0.875rem;
+    color: #666;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-down {
+    border: 2px solid #FF4E50;
+    background-color: #fff;
+    color: #FF4E50;
+}

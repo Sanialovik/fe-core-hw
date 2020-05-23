@@ -26,12 +26,12 @@
 
 
 
-/* .element-figure:hover > .figure {
+.element-figure:hover > .figure {
     
     top: 0;
     left: 0;
     transform: translate(-10px, -10px);
-} */
+}
 
 
 
@@ -45,6 +45,8 @@
 
 .caption {
     line-height: 1.5;
+    
+   
 }
 
 .name {
@@ -53,6 +55,7 @@
     font-family: "Montserrat-Regular", sans-serif;
     font-size: 0.875rem;
     text-align: center;
+    
 }
 
 .profession {

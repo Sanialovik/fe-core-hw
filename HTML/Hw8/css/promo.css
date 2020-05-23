@@ -1,0 +1,33 @@
+.promo {
+    text-align: center;
+}
+
+.promo-title {
+    font-size: 1.875rem;
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 1.25rem;
+}
+
+.promo-text {
+    color: #fff;
+    font-size: 1.125rem;
+    font-family: "Roboto", sans-serif;
+    opacity: 0.7;
+    margin-bottom: 1.125rem;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 0.875rem 3.25rem;
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    border-radius: 1.875rem;
+    background-color: #FF4E50;
+
+}
