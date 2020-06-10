@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.5rem;
+}
+
+.header__logo {
+    display: block;
+    width: 13.125rem;
+    height: 3.875rem;
+    background-image: url(../icon/CorpoLogo.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 16%;
+}
+
+.menu__item {
+    list-style: none;
+}
+
+.menu__svg {
+    display: block;
+    width: 0.875rem;
+    height: 0.875rem;
+    fill: #606060;
+}
+
+.menu__btn {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+

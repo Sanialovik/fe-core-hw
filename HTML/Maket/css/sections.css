@@ -1,0 +1,14 @@
+.sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section__one {
+    flex-basis: 58%;
+}
+
+.section__two {
+    flex-basis: 32%;
+    background-color: #F6F6F7;
+}

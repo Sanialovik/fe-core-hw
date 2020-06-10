@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-header {
+    padding-top: 1.875rem;
+    padding-bottom: 12.625rem;
+    background-color: #fff;
+    background-image: url(../img/flowerpot.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 14%;   
+    
+}
+
+
+.container {
+    max-width: 85.875rem;
+    min-width: 20rem;
+    margin: auto;
+}
+
+
+

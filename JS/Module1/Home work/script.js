@@ -66,27 +66,27 @@
 // ямайка - 120 кредитов
 // PS: используй switch
 
-// let country = prompt("Куда отправить товар?").toLowerCase();
+let country = prompt("Куда отправить товар?").toLowerCase();
 
-// if (country) {
-//     switch (country) {
-//         case 'китай':
-//             console.log(`Доставка в ${country} будет стоить 100 кредитов`);
-//             break;
-//         case 'южная америка':
-//             console.log(`Доставка в ${country} будет стоить 250 кредитов`);
-//             break;
-//         case 'австралия':
-//             console.log(`Доставка в ${country} будет стоить 170 кредитов`);
-//             break;
-//         case 'индия':
-//             console.log(`Доставка в ${country} будет стоить 80 кредитов`);
-//             break;
-//         case 'ямайка':
-//             console.log(`Доставка в ${country} будет стоить 120 кредитов`);
-//             break;
-//         default:
-//             console.log('В вашей стране доставка не доступна');
-//     }
-// }
+if (country) {
+    switch (country) {
+        case 'китай':
+            console.log(`Доставка в ${country} будет стоить 100 кредитов`);
+            break;
+        case 'южная америка':
+            console.log(`Доставка в ${country} будет стоить 250 кредитов`);
+            break;
+        case 'австралия':
+            console.log(`Доставка в ${country} будет стоить 170 кредитов`);
+            break;
+        case 'индия':
+            console.log(`Доставка в ${country} будет стоить 80 кредитов`);
+            break;
+        case 'ямайка':
+            console.log(`Доставка в ${country} будет стоить 120 кредитов`);
+            break;
+        default:
+            alert('В вашей стране доставка не доступна');
+    }
+}
 
