@@ -192,38 +192,100 @@
 // isLoginUnique только проверяет есть ли такой логин в массиве и возвращает true или false.
 // isLoginValid только проверяет валидный ли логин и возвращает true или false.
 // addLogin добавляет или не добавляет логин в массив. При этом для проверок условия добавления использует результаты вызовов других функций - isLoginUnique и isLoginValid.
-const logins = ['Mango', 'robotGoogles', 'Poly', 'Aj4x1sBozz', 'qwerty123'];
+// const logins = ['Mango', 'robotGoogles', 'Poly', 'Aj4x1sBozz', 'qwerty123'];
 // let login = prompt("Введите новый логин");
+// const isLoginValid = function (login) {
+//   if (login.length < 4 || login.length > 16) {
+//     return false;
+//   }
+//   return true;
+// };
+
+// const isLoginUnique = function (allLogins, login) {
+//   if (allLogins.includes(login)) {
+//     return false;
+
+//   } 
+//   return true;
+
+// };
+
+// const addLogin = function (allLogins, userlogin) {
+//   if (isLoginValid(userlogin) && isLoginUnique(allLogins, userlogin)) {
+//     alert('Логин успешно добавлен');
+//     allLogins.push(userlogin);
+//   }
+
+// };
+
+// /*
+//  * Вызовы функции для проверки работоспособности твоей реализации.
+//  */
+// console.log(addLogin(logins, 'Ajax')); // 'Логин успешно добавлен!'
+// console.log(addLogin(logins, 'robotGoogles')); // 'Такой логин уже используется!'
+// console.log(addLogin(logins, 'Zod')); // 'Ошибка! Логин должен быть от 4 до 16 символов'
+// console.log(addLogin(logins, 'jqueryisextremelyfast')); // 'Ошибка! Логин должен быть от 4 до 16 символов'
+
+// console.log(logins);
+
+
+
+const logins = ["Mango", "robotGoogles", "Poly", "Aj4x1sBozz", "qwerty123"]; //массив по-условию
+
+let login = prompt("Введите новый логин", ""); //запрос на ввод нового логина
+
+//проверка на количество символов
+
 const isLoginValid = function (login) {
+  
   if (login.length < 4 || login.length > 16) {
-    return false;
+    
+    alert('Ошибка! Логин должен быть от 4 до 16 символов');
+    
+        return false;
+    
   }
+  
   return true;
+  
 };
 
-const isLoginUnique = function (allLogins, login) {
+
+
+//проверка на совпадения
+
+const isLoginUnique = function (login, allLogins) {
+  
   if (allLogins.includes(login)) {
+    
+    alert('Такой логин уже используется!');
+    
     return false;
-
-  } 
-  return true;
-
-};
-
-const addLogin = function (allLogins, userlogin) {
-  if (isLoginValid(userlogin) && isLoginUnique(allLogins, userlogin)) {
-    alert('Логин успешно добавлен');
-    allLogins.push(userlogin);
+    
   }
-
+  
+  return true;
+  
 };
 
-/*
- * Вызовы функции для проверки работоспособности твоей реализации.
- */
-console.log(addLogin(logins, 'Ajax')); // 'Логин успешно добавлен!'
-console.log(addLogin(logins, 'robotGoogles')); // 'Такой логин уже используется!'
-console.log(addLogin(logins, 'Zod')); // 'Ошибка! Логин должен быть от 4 до 16 символов'
-console.log(addLogin(logins, 'jqueryisextremelyfast')); // 'Ошибка! Логин должен быть от 4 до 16 символов'
 
-console.log(logins);
+
+// добавление логина в массив
+
+const addLogin = function (login) {
+  
+  if (isLoginValid(login) && isLoginUnique(login, logins)) {
+    
+    alert('Логин успешно добавлен!');
+    
+    logins.push(login);
+    
+  }
+  
+};
+
+
+
+//вызов функций
+addLogin(login);
+console.log(login);

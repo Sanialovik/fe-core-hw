@@ -135,14 +135,14 @@
 
 // const value = Number.parseInt(Math.random() * 100);
 // let type;
-// let i;
-// // if (value & 1) {
-// //   console.log('odd');
-// // } else {
-// //   console.log('even');
-// // }
 
-// let type = value & 1 ? "even" : "odd";
+// if (value & 1) {
+//   console.log('odd');
+// } else {
+//   console.log('even');
+// }
+
+// type = value & 1 ? "even" : "odd";
 
 
 // console.log(`${value} is ${type}`);

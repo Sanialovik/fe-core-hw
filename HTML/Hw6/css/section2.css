@@ -20,18 +20,19 @@
 
 
 
-.element-figure:hover>.figure-socials {
+.element-figure:hover > .figure-socials {
     display: flex;
+
 }
 
 
 
-/* .element-figure:hover > .figure {
-    
+.element-figure:hover  .figure-img {
+    position: relative;
     top: 0;
     left: 0;
     transform: translate(-10px, -10px);
-} */
+}
 
 
 

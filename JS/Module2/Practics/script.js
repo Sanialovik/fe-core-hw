@@ -131,31 +131,31 @@
   в переменной message и находит в ней самое длинное слово,
   записывая его в переменную longestWord.
 */
-let letterNumber = 0;
-const message = "May the force be with you";
-let longestWord;
-const arr = message.split(' ');
-const max = arr.length;
-let wordLength = 0;
+// let letterNumber = 1000;
+// const message = "May the force be with you";
+// let longestWord;
+// const arr = message.split(' ');
+// const max = arr.length;
+// let wordLength = 0;
 
-// for (let i = 0; i < max; i += 1) {
-//   if(arr[i].length>wordLength) {
-//     longestWord = arr[i];
-//     wordLength = arr[i].length;
-//   }
-// }
+// // for (let i = 0; i < max; i += 1) {
+// //   if(arr[i].length>wordLength) {
+// //     longestWord = arr[i];
+// //     wordLength = arr[i].length;
+// //   }
+// // }
   
 
-// console.log(longestWord);
+// // console.log(longestWord);
 
-for(const word of arr) {
-  if(word.length > letterNumber) {
-    longestWord = word;
-    letterNumber = word.length;
-  }
-}
+// for(const word of arr) {
+//   if(word.length < letterNumber) {
+//     longestWord = word;
+//     letterNumber = word.length;
+//   }
+// }
 
-console.log(longestWord); // 'force'
+// console.log(longestWord); // 'force'
 
 // ___________________________________________________________________________________________________________________________________________________________________
 
