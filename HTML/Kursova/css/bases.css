@@ -12,7 +12,7 @@
 .wrapper-header {
     padding-top: 1rem;
     padding-bottom: 4.25rem;
-    background-image: linear-gradient(90deg, rgba(17,15,50,0.9) 0%, rgba(62,43,101,0.9) 100%), url(../img/forest.jpg);
+    background-image: linear-gradient(90deg, rgba(17, 15, 50, 0.9) 0%, rgba(62, 43, 101, 0.9) 100%), url(../img/forest.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,7 +27,7 @@
 .wrapper-video {
     padding-top: 12.625rem;
     padding-bottom: 12.375rem;
-    background-image: linear-gradient(90deg, rgba(17,15,50,0.9) 0%, rgba(62,43,101,0.9) 100%), url(../img/town.jpg);
+    background-image: linear-gradient(90deg, rgba(17, 15, 50, 0.9) 0%, rgba(62, 43, 101, 0.9) 100%), url(../img/town.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,7 +42,7 @@
 .wrapper-team {
     padding-top: 4.25rem;
     padding-bottom: 4.25rem;
-    background-image: linear-gradient(90deg, rgba(17,15,50,0.9) 0%, rgba(62,43,101,0.9) 100%), url(../img/forest\ green.jpg);
+    background-image: linear-gradient(90deg, rgba(17, 15, 50, 0.9) 0%, rgba(62, 43, 101, 0.9) 100%), url(../img/forest\ green.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,7 +58,7 @@
 .wrapper-people {
     padding-top: 4.25rem;
     padding-bottom: 4.25rem;
-    background-image: linear-gradient(90deg, rgba(17,15,50,0.9) 0%, rgba(62,43,101,0.9) 100%), url(../img/forest\ down.jpg);
+    background-image: linear-gradient(90deg, rgba(17, 15, 50, 0.9) 0%, rgba(62, 43, 101, 0.9) 100%), url(../img/forest\ down.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,7 +73,7 @@
 .wrapper-footer {
     padding-top: 4.25rem;
     padding-bottom: 4.25rem;
-    background-image: linear-gradient(90deg, rgba(17,15,50,0.9) 0%, rgba(62,43,101,0.9) 100%), url(../img/table.jpg);
+    background-image: linear-gradient(90deg, rgba(17, 15, 50, 0.9) 0%, rgba(62, 43, 101, 0.9) 100%), url(../img/table.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
